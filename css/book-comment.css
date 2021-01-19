@@ -1,0 +1,90 @@
+.rightContainer .userInfo .bookMud{
+  height: 80px;
+  width: 220px;
+  background-color: rgb(28, 128, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.rightContainer .content{
+  width: 60%;
+  height: 600px;
+  margin: 4% auto;
+  background-color: rgb(206, 205, 205);
+  box-shadow: 5px 5px 5px 5px grey;
+  padding-bottom: 50px;
+}
+.rightContainer .content .funTitle{
+  height: 50px;
+  background: rgb(216, 216, 216);
+  color: rgb(26, 26, 26);
+
+  /* line-height: 50px; */
+  padding-top: 15px;
+  
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.funTitle .submit{
+  /* display: inline-b; */
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: rgba(43, 179, 38, 0.637);
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+.funTitle .submit:hover{
+  background-color: rgb(189, 58, 58);
+  color: white;
+}
+.commentDiv{
+  padding-top: 20px;
+
+  height: 80%;
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: rgb(197, 57, 57); */
+  color: rgb(27, 27, 27);
+}
+.commentDiv .bookName, .bookAuthor{
+  font-size: 26px;
+
+}
+.commentDiv .bookName input, .bookAuthor input{
+  width: 250px;
+  height: 40px;
+  font-size: 22px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid black;
+  margin-bottom: 40px;
+}
+.commentDiv .bookComment{
+  font-size: 26px;
+}
+.commentDiv .bookComment textarea{
+  margin-left: 76px;
+  height: 300px;
+  width: 600px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 22px;
+  position: relative;
+  top: -24px;
+  padding: 10px;
+  resize: none;
+}
+.content .funTitle .modify{
+  padding-left: 26px;
+  font-size: 26px;
+}

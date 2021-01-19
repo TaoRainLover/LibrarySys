@@ -1,0 +1,117 @@
+.container{
+  background: rgb(240, 243, 244);
+  display: flex;
+  color: white;
+  
+
+}
+
+/* 右方布局 */
+
+.rightContainer .content{
+  width: 80%;
+  margin: 4% auto;
+  /* background-color: aquamarine; */
+  box-shadow: 5px 5px 5px 5px grey;
+  padding-bottom: 50px;
+}
+.rightContainer .content .funTitle{
+  height: 50px;
+  background: rgb(216, 216, 216);
+  color: rgb(26, 26, 26);
+
+  /* line-height: 50px; */
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.content .funTitle div{
+  
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 0px;
+  color: rgb(20, 20, 20);
+  /* background-color: rgb(76, 223, 18); */
+  border-radius: 8px;
+  position: relative;
+  top: 5px;
+  font-weight: bolder;
+}
+/* .content .funTitle div:hover{
+  background-color: rgb(223, 85, 50);
+} */
+.content .inputDiv{
+  background-color: white;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  /* display: flex; */
+  border-bottom: 2px solid grey;
+  box-sizing: border-box;
+  padding: 20px 25px ;
+  /* justify-content: space-around; */
+}
+.AdminMod{
+  height: 66px;
+  width: 250px;
+  font-size: 40px;
+  background-color: rgb(100, 236, 118);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+.inputInfor{
+  height: 600px;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  font-size: 26px;
+}
+.inputInfor input{
+  width: 340px;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.inputInfor div{
+  /* width: 80%; */
+  width: 450px;
+  display:  flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.inputInfor div input{
+  outline: none;
+  font-size: 24px;
+}
+.inputInfor .bookIntro{
+  float: right;
+}
+.inputInfor .submit{
+  width: 80px;
+  cursor: pointer;
+  background-color: rgb(214, 82, 82);
+  margin-left: 100px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.inputInfor .bookIntro{
+  width: 600px;
+}
+.inputInfor .bookIntro textarea{
+  padding: 10px;
+  width: 550px;
+  box-sizing: border-box;
+  height: 420px;
+  outline: none;
+  border-radius: 8px;
+  font-size: 24px;
+  resize: none;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学生模块-查询</title>
+  <!-- <link href="favicon.ico" rel="shortcut icon"> -->
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/search.css">
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/search.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="../html/index-test.html">图书管理系统</a></div>
+      <p>分类</p>
+      <ul class="borrowFun">
+        <li><img src="../img/icon/book-search.png"><a href="../html/search.html">图书查询</a></li>
+        <li><img src="../img/icon/book-intro.png"><a href="../html/user-module-introduce.html">图书介绍</a></li>
+        <!-- <li><img src="../img/icon/search-on.png">图书介绍</li> -->
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="bookMud">图书模块</div>
+        <!-- <div class="userName"><img src="../img/icon/users.png" alt="">[userName]</div> -->
+      </div>
+      <div class="content">
+        <div class="funTitle">图书查询</div>
+        <div class="searchBox">
+          <div class="inputContent">
+            <!-- 改成下拉框 -->
+            <!-- <span>书名：</span> -->
+            <select class="way">
+
+              <option value ="bookName">书名</option>
+              <option value="author">作者</option>
+              <option value="ISBN">ISBN</option>
+            </select>
+            <input type="text" placeholder="请输入" class="searchContent">
+          </div>
+          <div class="submit">
+            <img src="../img/icon/search-on.png" alt="">
+            <span>查询</span>
+          </div>
+        </div>
+        <div class="formContainer">
+          <ul class="form">
+            <li class="des">
+              <div class="bookName ">书名</div>
+              <div class="bookAutor">作者</div>
+              <div class="isbn">ISBN</div>
+              <div class="type">类别</div>
+              <div class="num">数量</div>
+              <div class="remain">剩余数量</div>
+              <div class="place">位置</div>
+            </li>
+<!--            <li class="bookResult ">-->
+<!--              <div class="bookName bookResName">追风筝的人</div>-->
+<!--              <div class="bookAutor">卡勒德·胡赛尼</div>-->
+<!--              <div class="isbn">9787208061644</div>-->
+<!--              <div class="type">文学类</div>-->
+<!--              <div class="num">2</div>-->
+<!--              <div class="remain">2</div>-->
+<!--              <div class="place">文学图书馆2楼文学阅读室</div>-->
+
+<!--            </li>-->
+<!--            <li class="bookResult ">-->
+<!--              <div class="bookName bookResName">简爱</div>-->
+<!--              <div class="bookAutor">卡勒德·胡赛尼</div>-->
+<!--              <div class="isbn">9787208061644</div>-->
+<!--              <div class="type">文学类</div>-->
+<!--              <div class="num">2</div>-->
+<!--              <div class="remain">2</div>-->
+<!--              <div class="place">文学图书馆2楼文学阅读室</div>-->
+<!--            </li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

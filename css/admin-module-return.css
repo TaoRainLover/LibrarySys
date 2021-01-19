@@ -1,0 +1,132 @@
+.container{
+  background: rgb(240, 243, 244);
+  display: flex;
+  color: white;
+  
+
+}
+.AdminMod{
+  height: 66px;
+  width: 250px;
+  font-size: 40px;
+  background-color: rgb(100, 236, 118);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+/* 右方布局 */
+.rightContainer{
+  /* height: ; */
+  width: 84%;
+}
+.rightContainer .userInfo{
+  height: 12%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.rightContainer .userInfo .left{
+  background-color: brown;
+  width: 60px;
+  height: 40px;
+  margin-left: 20px;
+}
+.rightContainer .userInfo .userName{
+  color: grey;
+  line-height: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+
+}
+.rightContainer .userInfo .userName img{
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+}
+.rightContainer .content{
+  width: 80%;
+  margin: 4% auto;
+  /* background-color: aquamarine; */
+  box-shadow: 5px 5px 5px 5px grey;
+  padding-bottom: 50px;
+}
+.rightContainer .content .funTitle{
+  height: 50px;
+  background: rgb(216, 216, 216);
+  color: rgb(26, 26, 26);
+
+  /* line-height: 50px; */
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.content .funTitle div{
+  
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  color: white;
+  background-color: rgb(223, 85, 50);
+  border-radius: 8px;
+  position: relative;
+  top: 5px;
+}
+
+.content .inputDiv{
+  width: 600px;
+  margin: 100px auto;
+  background-color: rgb(117, 183, 224);
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  /* display: flex; */
+  border-bottom: 2px solid grey;
+  box-sizing: border-box;
+  padding: 40px 25px ;
+  border-radius: 10px;
+}
+.content .inputContent{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content .inputContent span{
+  position: relative;
+  top: 6px;
+}
+.content .inputContent input{
+  height: 40px;
+  width: 400px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid rgb(110, 110, 110);
+  padding-left:10px;
+}
+
+
+.content .submit{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.content .submit button{
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(252, 222, 78);
+  color: white;
+  font-size: 18px;
+}
+.content .submit button:hover{
+  background-color: rgb(223, 85, 50);
+
+}

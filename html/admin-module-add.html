@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员-添加</title>
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/admin-module-add.css">
+  <link rel="stylesheet" href="../css/user-right-info.css">
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/admin-module-add.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="../html/index-test.html">图书管理系统</a></div>
+      <p>功能导航</p>
+      <ul class="borrowFun">
+        <li><img src="../img/icon/book-search.png"><a href="../html/search.html">图书查询</a></li>
+        <li><img src="../img/icon/bookM1.png"><a href="../html/admin-module-managerment.html">库存管理</a></li>
+        <li><img src="../img/icon/add-book.png"><a href="../html/admin-module-add.html">添加图书</a></li>
+        <li><img src="../img/icon/borrow-book.png"><a href="../html/admin-module-borrow.html">用户借书</a></li>
+        <li><img src="../img/icon/return-book.png"><a href="../html/admin-module-return.html">用户还书</a></li>
+        
+        
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="AdminMod">管理员模块</div>
+        <div class="userName"><img src="../img/icon/users.png" alt=""><span>[Admin]</span></div>
+      </div>
+      <div class="content">
+        <div class="funTitle"><div class="add">添加图书</div></div>
+        <!-- <div class="intor">
+          <span>简介：</span>
+
+          <textarea name="" id="" cols="30" rows="10" class="bookIntor"></textarea>
+        </div> -->
+        <div class="inputDiv">
+          <div class="inputInfor">
+            <form action="../php/admin/addbook.php" enctype="multipart/form-data" method="post">
+              <div class="bookIntro">
+                <span>简介:</span>
+                <!-- <  name="Bintro" type="text" /> -->
+                <textarea id="Bintro" cols="30" rows="10"></textarea>
+              </div>
+              <div  class="bookISBN">
+                <span>ISBN:</span>
+                <input name="ISBN" type="text"/>
+              </div>
+              <div  class="bookName">
+                <span>书名:</span>
+                <input name="Bname" type="text" />
+              </div>
+              <div class="bookAuthor">
+                <span>作者:</span>
+                <input name="Bauthor" type="text"/>
+              </div>
+              <div  class="bookPress"/>
+                <span>出版社:</span>
+                <input name="Bpress" type="text">
+              </div>
+              <div  class="bookNum">
+                <span>数量:</span>
+                <input name="Bnum" type="text"/>
+              </div>
+              <div class="bookClass" >
+                <span>分类:</span>
+                <input name="Bclass" type="text"/>
+              </div>
+              <div  class="bookPlace">
+                <span>位置:</span>
+                <input name="Bplace" type="text"/>
+              </div>
+              <div class="bookFile">
+                <span>图片:</span>
+                <input name="file" type="file" />
+              </div>
+              <input type="submit" value="添加" class="submit"/><br/>
+            </form>
+          </div>
+        
+          <!-- <div class="inputContent">
+            <span>书名：</span>
+            <input type="text" placeholder="请输入书名" class="bookName">
+          </div>
+          <div class="inputContent">
+            <span>作者：</span>
+            <input type="text" placeholder="请输入作者" class="bookAutor">
+          </div>
+          <div class="inputContent">
+            <span>类别：</span>
+            <input type="text" placeholder="请输入类别" class="bookType">
+          </div>
+          <div class="inputContent">
+            <span>ISBN:</span>
+            <input type="text" placeholder="请输入ISBN" class="bookISBN">
+          </div>
+          <div class="inputContent">
+            <span>数量:</span>
+            <input type="text" placeholder="请输入数量" class="bookNum">
+          </div>
+          <div class="inputContent">
+            <span>位置:</span>
+            <input type="text" placeholder="请输入图书放置位置" class="bookPosition">
+          </div>
+          <div class="submit">
+            <input type="file" class="file">
+          </div> -->
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

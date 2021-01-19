@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a17f408a-8f07-421a-9ce0-6a3938c704a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" show_pre_config_in_web_page="false" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1lyCqFPjQptncoNgbe8XSxlRGa7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Softwaredev\php\book" />
+      <recent name="D:\Softwaredev\book" />
+      <recent name="F:\Softwaredev\admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a17f408a-8f07-421a-9ce0-6a3938c704a3" name="Default Changelist" comment="" />
+      <created>1608560133729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608560133729</updated>
+      <workItem from="1608560135163" duration="110000" />
+      <workItem from="1608560638572" duration="1855000" />
+      <workItem from="1608595818793" duration="1667000" />
+      <workItem from="1608597729300" duration="9281000" />
+      <workItem from="1608622727840" duration="577000" />
+      <workItem from="1608623513982" duration="163000" />
+      <workItem from="1608634248996" duration="7983000" />
+      <workItem from="1608643438599" duration="548000" />
+      <workItem from="1608644057012" duration="331000" />
+      <workItem from="1608644828461" duration="2218000" />
+      <workItem from="1608647838788" duration="3386000" />
+      <workItem from="1608683393057" duration="1027000" />
+      <workItem from="1608684442580" duration="323000" />
+      <workItem from="1608684840269" duration="23174000" />
+      <workItem from="1608768694211" duration="2052000" />
+      <workItem from="1608771012257" duration="9021000" />
+      <workItem from="1608795215689" duration="3611000" />
+      <workItem from="1608807580681" duration="1455000" />
+      <workItem from="1608854772856" duration="7153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

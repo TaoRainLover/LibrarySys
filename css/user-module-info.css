@@ -1,0 +1,57 @@
+
+.rightContainer .content{
+  width: 60%;
+  margin: 4% auto;
+  background-color: rgb(247, 209, 161);
+  box-shadow: 5px 5px 5px 5px grey;
+  padding-bottom: 50px;
+}
+.rightContainer .content .funTitle{
+  height: 50px;
+  background: rgb(216, 216, 216);
+  color: rgb(26, 26, 26);
+
+  /* line-height: 50px; */
+  padding-top: 15px;
+  
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.modify{
+  display: inline-block;
+  height: 30px;
+  width: 80px;
+  padding: 4px 2px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 8px;
+  color: rgb(235, 235, 235);
+  background-color: brown;
+}
+.modify:hover{
+  background-color: orange;
+}
+.userInformation{
+  font-size: 26px;
+  color: rgb(243, 243, 243);
+  margin-top: 40px;
+  margin-left: 190px;
+  display: flex;
+  flex-flow: column;
+}
+.userInformation li{
+  height: 40px;
+  width: 500px;
+  background-color: rgb(243, 75, 75);
+  margin: 10px 20px;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.userInformation li:nth-child(even){
+  background-color: rgb(86, 216, 75);
+  
+}

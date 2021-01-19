@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">图书管理系统</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">图书 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">作者</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">更多 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="找找看吧~">
+                </div>
+                <button type="submit" class="btn btn-default">提 交</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">yangyang</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">更多操作 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    图书列表
+                </a>
+                <a href="#" class="list-group-item">作者</a>
+                <a href="#" class="list-group-item">版权</a>
+                <a href="#" class="list-group-item">出版社</a>
+                <a href="#" class="list-group-item">杂志社</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">图书管理系统  <small>香喷喷的哦~</small><span class="
+glyphicon glyphicon-book pull-right"></span></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="输入你要找的书名~">
+                                <span class="input-group-btn">
+        <button class="btn btn-default" type="button">找 书</button>
+      </span>
+                            </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-7">
+                            <button class="btn btn-success pull-right">添 加</button>
+                        </div>
+                    </div><!-- /.row -->
+                    <hr>
+                    <div>
+                        <table class="table table-hover table-striped table-bordered">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>author</th>
+                                <th>bookName</th>
+                                <th>booKPrice</th>
+                                <th>action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>egon</td>
+                                <td>论打不过人放狗的重要性</td>
+                                <td class="item">666</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>tank</td>
+                                <td>吃生蚝的秘密</td>
+                                <td class="item">423</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>jason</td>
+                                <td>论被称之为跑王的重要性</td>
+                                <td class="item">222</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>抠脚少年</td>
+                                <td>唱歌难听怎么才不会挨打</td>
+                                <td class="item">444</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>派大星</td>
+                                <td>吓人以后怎么才不会挨打</td>
+                                <td class="item">999</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>大婶</td>
+                                <td>叫你骚起来</td>
+                                <td class="item">777</td>
+                                <td>
+                                    <button class="btn btn-success">添加</button>
+                                    <button class="btn btn-danger">删除</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <nav aria-label="Page navigation" class="text-center">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    $('tr,th').addClass("text-center");
+    $('td .btn').addClass('btn-xs');
+    $('tr .item').prepend($('<span>').html('&yen; '));
+
+    // 响应式布局实现
+    let reg = /col-.*?/;
+    let regNum = /[0-9]$/;
+    $('.row').children().each(function (index, tagObj) {
+        // console.log(tagObj);
+        $.each(tagObj.classList, function (index, classObj) {
+            // console.log(classObj);
+
+            // console.log(reg.test(classObj));
+            if (reg.test(classObj)) {
+                // console.log(classObj.match(regNum)[0]);
+                let getNum = classObj.match(regNum)[0];
+                tagObj.classList.add(`col-md-${getNum}`);
+                tagObj.classList.add(`col-xs-${getNum}`);
+                tagObj.classList.add(`col-md-${getNum}`);
+                tagObj.classList.add(`col-lg-${getNum}`);
+                // tagObj.classList.add(`col-md-${getNum} col-xs-${getNum} col-sm-${getNum} col-lg-${getNum}`);
+            }
+            // console.log(reg.test(classObj));
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+.container{
+  background: rgb(240, 243, 244);
+  display: flex;
+  color: white;
+  
+}
+.AdminMod{
+  height: 66px;
+  width: 250px;
+  font-size: 40px;
+  background-color: rgb(100, 236, 118);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+/* 右方布局 */
+.rightContainer{
+  /* height: ; */
+  width: 84%;
+}
+.rightContainer .userInfo{
+  height: 12%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.rightContainer .userInfo .left{
+  background-color: brown;
+  width: 60px;
+  height: 40px;
+  margin-left: 20px;
+}
+.rightContainer .userInfo .userName{
+  color: grey;
+  line-height: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+
+}
+.rightContainer .userInfo .userName img{
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+}
+.rightContainer .content{
+  width: 94%;
+  height: 700px;
+  margin: 4% auto;
+  overflow: auto;
+  /* background-color: aquamarine; */
+  box-shadow: 5px 5px 5px 5px grey;
+  padding-bottom: 50px;
+}
+.rightContainer .content .funTitle{
+  height: 50px;
+  background: rgb(216, 216, 216);
+  color: rgb(26, 26, 26);
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.content .searchBox{
+  background-color: white;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  display: flex;
+  border-bottom: 2px solid grey;
+  box-sizing: border-box;
+  padding: 20px 25px ;
+  /* justify-content: space-around; */
+}
+/* .content .searchBox .inputContent{
+
+} */
+.content .searchBox .inputContent input{
+  height: 40px;
+  width: 400px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid rgb(110, 110, 110);
+  padding-left:10px;
+}
+.content .searchBox .submit{
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-radius: 4px;
+  background-color: rgb(252, 222, 78);
+}
+.content .searchBox .submit:hover{
+  background-color: rgb(223, 85, 50);
+}
+.content .searchBox .submit img{
+  width: 16px;
+  height: 16px;
+}
+.content .searchBox .submit span{
+  color: white;
+  line-height: 40px;
+}
+
+
+/* 信息展示模块 */
+.rightContainer .content .form{
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid grey;
+  color: rgb(29, 29, 29);
+  margin-top: 50px;
+  
+}
+
+
+.form li{
+  width: 100%;
+  display: flex;
+
+  line-height: 60px;
+  /* justify-content: space-between;  */
+}
+.form .des{
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+.form .bookResult{
+  font-size: 18px;
+  height: 60px;
+  background-color: rgb(231, 247, 162)
+}
+.form li div{
+  border: 1px solid grey;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.form .bookName {
+  width: 10%;
+}
+.form .bookAutor {
+  width: 15%;
+}
+.form .isbn {
+  width: 15%;
+}
+.form .type {
+  width: 10%;
+}
+.form .num {
+  width: 7.5%;
+}
+.form .reNum{
+  width: 9.5%;
+}
+.form .position{
+  width: 20%;
+}
+.form .operation{
+  width: 13%;
+  /* display: flex; */
+}
+
+.form .operation span{
+  cursor: pointer;
+  color: white;
+  height: 22px;
+  width: 40px;
+  background-color: rgb(0, 194, 233);
+  padding:5px 10px;
+  border-radius: 5px;
+  align-content: center;
+}
+.form .operation span:hover{
+  background-color: rgb(223, 85, 50);
+
+}
+.form .operation span img{
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学生模块-借阅记录</title>
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/user-right-info.css">
+
+  <link rel="stylesheet" href="../css/user-info-modify.css">
+  
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/user-info-modify.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="./index-test.html">图书管理系统</a></div>
+      <p>导航</p>
+      <ul class="borrowFun">
+        
+        <li><img src="../img/icon/search-on.png"><a href="../html/user-module-record.html">借阅记录</a></li>
+        <!-- <li><img src="../img/icon/search-on.png"><a href="../html/search.html">图书查询</a></li> -->
+        <li><img src="../img/icon/userinfo1.png"><a href="../html/user-module-info.html">个人信息</a></li>
+        <li><img src="../img/icon/changepass1.png"><a href="../html/user-module-changePass.html">修改密码</a></li>
+        
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="left"><a href="../php/register/logout.php">登出</a></div>
+        <div class="loginOut">用户模块</div>
+        <div class="userName"><img src="../img/icon/users.png" alt=""><span>[userName]</span></div>
+
+      </div>
+      <div class="content">
+        <div class="funTitle">
+          <span class="modify">修改个人信息</span>
+          <button type="submit" class="submit">确认</button>
+        </div>
+        <div class="modifyContainer">
+          <div ><span >昵称：</span><input type="text" class="userName"></div>
+          <div ><span >电子邮箱：</span><input type="text" class="userEmail"></div>
+          <div ><span >电话号码：</span><input type="text" class="userTel"></div>
+          <!-- <div ><span >密码</span><input type="password" class="userPass"></div> -->
+          <!-- <div >用户名：<input type="text"></div> -->
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

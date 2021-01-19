@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员-用户还书</title>
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/admin-module-borrow.css">
+  <link rel="stylesheet" href="../css/user-right-info.css">
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/admin-module-return.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="../html/index-test.html">图书管理系统</a></div>
+      <p>功能导航</p>
+      <ul class="borrowFun">
+        <li><img src="../img/icon/book-search.png"><a href="../html/search.html">图书查询</a></li>
+        <li><img src="../img/icon/bookM1.png"><a href="../html/admin-module-managerment.html">库存管理</a></li>
+        <li><img src="../img/icon/add-book.png"><a href="../html/admin-module-add.html">添加图书</a></li>
+        <li><img src="../img/icon/borrow-book.png"><a href="../html/admin-module-borrow.html">用户借书</a></li>
+        <li><img src="../img/icon/return-book.png"><a href="../html/admin-module-return.html">用户还书</a></li>
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="AdminMod">管理员模块</div>
+        <div class="userName"><img src="../img/icon/users.png" alt=""><span>[Admin]</span></div>
+      </div>
+      <div class="content">
+        <div class="funTitle"><div class="add">还书登记</div></div>
+        <div class="inputDiv">
+          <div class="inputContent">
+            <span>ISBN:</span>
+            <input type="text" placeholder="请输入ISBN" class="bookISBN">
+          </div>
+          <div class="inputContent">
+            <span>用户ID:</span>
+            <input type="text" placeholder="请输入借阅者ID" class="userID">
+          </div>
+          <div class="submit"><button>还书确认</button></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

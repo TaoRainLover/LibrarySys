@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学生模块-借阅记录</title>
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/user-right-info.css">
+  <link rel="stylesheet" href="../css/user-module-record.css">
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/user-module.record.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="./index-test.html">图书管理系统</a></div>
+      <p>导航</p>
+      <ul class="borrowFun">
+        <!-- <li><img src="../img/icon/search-on.png">图书查询</li> -->
+        <li><img src="../img/icon/search-on.png"><a href="../html/user-module-record.html">借阅记录</a></li>
+        <!-- <li><img src="../img/icon/search-on.png"><a href="../html/search.html">图书查询</a></li> -->
+        <li><img src="../img/icon/userinfo1.png"><a href="../html/user-module-info.html">个人信息</a></li>
+        <li><img src="../img/icon/changepass1.png"><a href="../html/user-module-changePass.html">修改密码</a></li>
+
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="left"><a href="../php/register/logout.php">登出</a></div>
+        <div class="loginOut">用户模块</div>
+        <div class="userName"><img src="../img/icon/users.png" alt=""><span>[userName]</span></div>
+
+      </div>
+      <div class="content">
+        <div class="funTitle">借阅记录</div>
+        <div class="formContainer">
+          <ul class="form">
+            <li class="des">
+              <div class="id">ID</div>
+              <div class="bookName">书名</div>
+              <div class="borrowDate">借书日期</div>
+              <div class="returnDate">到期日期</div>
+              <div class="status2">操作</div>
+            </li>
+            <li>
+              <div class="id">1</div>
+              <div class="bookName">追风筝的人</div>
+              <div class="borrowDate">2020-12-22</div>
+              <div class="returnDate">2020-12-22</div>
+              <div class="status2">
+                <span><img src="../img/icon/add.png">未还</span>
+                <span class="comment"><img src="../img/icon/modify.png" alt="">评价</span>
+              </div>
+            </li>
+            <li>
+              <div class="id">1</div>
+              <div class="bookName">简爱</div>
+              <div class="borrowDate">2020-12-22</div>
+              <div class="returnDate">2020-12-22</div>
+              <div class="status2">
+                <span><img src="../img/icon/add.png">已还</span>
+                <span class="comment"><img src="../img/icon/modify.png" >评价</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

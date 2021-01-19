@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员-管理</title>
+  <link rel="stylesheet" href="../css/clearDefalutStyle.css">
+  <link rel="stylesheet" href="../css/user-module-left.css">
+  <link rel="stylesheet" href="../css/admin-module-management.css">
+  <link rel="stylesheet" href="../css/user-right-info.css">
+  <link rel="stylesheet" href="../css/drop-down-box.css">
+  <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="../js/Cookie.js"></script>
+  <script src="../js/admin-module-management.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="leftContainer">
+      <div class="logo"><a href="../html/index-test.html">图书管理系统</a></div>
+      <p>功能导航</p>
+      <ul class="borrowFun">
+        <li><img src="../img/icon/search-on.png"><a href="../html/">库存管理</a></li>
+        <!-- <li><img src="../img/icon/search-on.png"><a href="../html/admin-module-managerment.html">图书管理</a></li>
+        <li><img src="../img/icon/search-on.png"><a href="../html/admin-module-add.html">添加图书</a></li>
+        <li><img src="../img/icon/search-on.png"><a href="../html/admin-module-borrow.html">用户借书</a></li>
+        <li><img src="../img/icon/search-on.png"><a href="../html/admin-module-return.html">用户还书</a></li> -->
+
+      </ul>
+    
+    </div>
+    <div class="rightContainer">
+      <div class="userInfo">
+        <div class="left">图书管理</div>
+        <div class="userName"><img src="../img/icon/users.png" alt=""><span>[ span ]</span></div>
+      </div>
+      <div class="content">
+        <div class="funTitle">图书管理</div>
+        <div class="searchBox">
+          <div class="inputContent">
+            <!-- <span>书名：</span> -->
+            <select class="way">
+
+              <option value ="bookName">书名</option>
+              <option value="author">作者</option>
+              <option value="ISBN">ISBN</option>
+            </select>
+            <input type="text" placeholder="请输入书名" class="searchContent">
+          </div>
+          <div class="submit">
+            <img src="../img/icon/search-on.png" alt="">
+            <span>查询</span>
+          </div>
+        </div>
+        <div class="formContainer">
+          <ul class="form">
+            <li class="des">
+              <div class="bookName">书名</div>
+              <div class="bookAutor">作者</div>
+              <div class="isbn">ISBN</div>
+              <div class="type">类别</div>
+              <div class="num">总库存</div>
+              <div class="reNum">剩余库存</div>
+              <div class="position">位置</div>
+              <div class="operation">操作</div>
+            </li>
+            <li class="bookResult">
+              <div class="bookName">追风筝的人</div>
+              <div class="bookAutor">卡勒德·胡赛尼</div>
+              <div class="isbn">9787208061644</div>
+              <div class="type">文学类</div>
+              <div class="num">4</div>
+              <div class="reNum">2</div>
+
+              <div class="position">文学图书馆2楼文学阅读室</div>
+              <div class="operation">
+                <span><img src="../img/icon/modify.png">库存管理</span>
+                <!-- <span><img src="../img/icon/delete.png">删除</span> -->
+              </div>
+
+            </li>
+            <li class="bookResult">
+              <div class="bookName">追风筝的人</div>
+              <div class="bookAutor">卡勒德·胡赛尼</div>
+              <div class="isbn">9787208061644</div>
+              <div class="type">文学类</div>
+              <div class="num">4</div>
+              <div class="reNum">2</div>
+              <div class="position">文学图书馆2楼文学阅读室</div>
+              <div class="operation">
+                <span><img src="../img/icon/modify.png">库存管理</span>
+                <!-- <span><img src="../img/icon/delete.png">删除</span> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

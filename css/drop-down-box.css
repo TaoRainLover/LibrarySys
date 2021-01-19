@@ -1,0 +1,18 @@
+/* 下拉菜单样式 */
+.content .searchBox{
+  background-color: white;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  display: flex;
+  border-bottom: 2px solid grey;
+  box-sizing: border-box;
+  padding: 20px 25px ;
+  /* justify-content: space-around; */
+}
+.content .searchBox .inputContent .way{
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  outline: none;
+
+}
